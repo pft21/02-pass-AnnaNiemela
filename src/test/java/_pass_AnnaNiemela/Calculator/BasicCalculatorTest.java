@@ -108,5 +108,4 @@ public class BasicCalculatorTest {
 		assertEquals(b.division(firstValue, secondValue), result, 0);
 
 	}
-
 }
