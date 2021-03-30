@@ -20,7 +20,7 @@ public class AdvancedCalculatorTest {
 		}
 		// negative
 		for (int i = 0; i < 10; i++) {
-			double value = r.nextDouble() * 10 - 20;
+			double value = r.nextDouble() * 10 - 10;
 			double result = Math.sqrt(value);
 			assertEquals(a.squareRoot(value), result, 0);
 		}
@@ -42,8 +42,8 @@ public class AdvancedCalculatorTest {
 		}
 		// negative
 		for (int i = 0; i < 10; i++) {
-			double firstArgument = r.nextDouble() * 10 - 20;
-			double secondArgument = r.nextDouble() * 10 - 20;
+			double firstArgument = r.nextDouble() * 10 - 10;
+			double secondArgument = r.nextDouble() * 10 - 10;
 			double result = Math.pow(firstArgument, secondArgument);
 			assertEquals(a.toThePowerOf(firstArgument, secondArgument), result, 0);
 		}
@@ -65,7 +65,7 @@ public class AdvancedCalculatorTest {
 		}
 		// negative
 		for (int i = 0; i < 10; i++) {
-			double value = r.nextDouble() * 10 - 20;
+			double value = r.nextDouble() * 10 - 10;
 			double result = Math.abs(value);
 			assertEquals(a.absoluteValue(value), result, 0);
 		}
@@ -87,8 +87,8 @@ public class AdvancedCalculatorTest {
 		}
 		// negative
 		for (int i = 0; i < 10; i++) {
-			double percentage = r.nextDouble() * 10 - 20;
-			double ofValue = r.nextDouble() * 10 - 20;
+			double percentage = r.nextDouble() * 10 - 10;
+			double ofValue = r.nextDouble() * 10 - 10;
 			double result = (percentage * ofValue) / 100;
 			assertEquals(a.percentageOf(percentage, ofValue), result, 0);
 		}
@@ -110,7 +110,7 @@ public class AdvancedCalculatorTest {
 		}
 		// negative
 		for (int i = 0; i < 10; i++) {
-			double value = r.nextDouble() * 10 - 20;
+			double value = r.nextDouble() * 10 - 10;
 			double result = Math.cbrt(value);
 			assertEquals(a.cubeRoot(value), result, 0);
 		}

@@ -21,18 +21,16 @@ public class BasicCalculatorTest {
 		}
 		// negative
 		for (int i = 0; i < 10; i++) {
-			double firstValue = r.nextDouble() * 10 - 20;
-			double secondValue = r.nextDouble() * 10 - 20;
+			double firstValue = r.nextDouble() * 10 - 10;
+			double secondValue = r.nextDouble() * 10 - 10;
 			double result = firstValue + secondValue;
 			assertEquals(b.addition(firstValue, secondValue), result, 0);
 		}
 		// zero
-		for (int i = 0; i < 10; i++) {
-			double firstValue = 0;
-			double secondValue = 0;
-			double result = firstValue + secondValue;
-			assertEquals(b.addition(firstValue, secondValue), result, 0);
-		}
+		double firstValue = 0;
+		double secondValue = 0;
+		double result = firstValue + secondValue;
+		assertEquals(b.addition(firstValue, secondValue), result, 0);
 	}
 
 	@Test
@@ -47,8 +45,8 @@ public class BasicCalculatorTest {
 		}
 		// negative
 		for (int i = 0; i < 10; i++) {
-			double firstValue = r.nextDouble() * 10 - 20;
-			double secondValue = r.nextDouble() * 10 - 20;
+			double firstValue = r.nextDouble() * 10 - 10;
+			double secondValue = r.nextDouble() * 10 - 10;
 			double result = firstValue - secondValue;
 			assertEquals(b.subtraction(firstValue, secondValue), result, 0);
 		}
@@ -72,8 +70,8 @@ public class BasicCalculatorTest {
 		}
 		// negative
 		for (int i = 0; i < 10; i++) {
-			double firstValue = r.nextDouble() * 10 - 20;
-			double secondValue = r.nextDouble() * 10 - 20;
+			double firstValue = r.nextDouble() * 10 - 10;
+			double secondValue = r.nextDouble() * 10 - 10;
 			double result = firstValue * secondValue;
 			assertEquals(b.multiplication(firstValue, secondValue), result, 0);
 		}
@@ -96,8 +94,8 @@ public class BasicCalculatorTest {
 		}
 		// negative
 		for (int i = 0; i < 10; i++) {
-			double firstValue = r.nextDouble() * 10 - 20;
-			double secondValue = r.nextDouble() * 10 - 20;
+			double firstValue = r.nextDouble() * 10 - 10;
+			double secondValue = r.nextDouble() * 10 - 10;
 			double result = firstValue / secondValue;
 			assertEquals(b.division(firstValue, secondValue), result, 0);
 		}

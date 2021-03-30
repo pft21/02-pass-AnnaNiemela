@@ -14,7 +14,7 @@ public class AdvancedCalculator extends BasicCalculator implements AdvancedOpera
 		return Math.abs(value);
 	}
 	
-	public double percentageOf(double percentage, double ofValue) {
+	public double percentageOf(double percentage, double ofValue) { // i.e. how much is 50% of 300kr
 		return (percentage * ofValue) / 100;
 	}
 	
