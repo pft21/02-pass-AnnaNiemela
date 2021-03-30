@@ -11,7 +11,6 @@ public class AdvancedCalculatorTest {
 
 	@Test
 	public void testSquareRoot() {
-
 		// positive
 		for (int i = 0; i < 10; i++) {
 			double value = r.nextDouble() * 10;
@@ -32,7 +31,6 @@ public class AdvancedCalculatorTest {
 
 	@Test
 	public void testToThePowerOf() {
-
 		// positive
 		for (int i = 0; i < 10; i++) {
 			double firstArgument = r.nextDouble() * 10;
@@ -56,7 +54,6 @@ public class AdvancedCalculatorTest {
 
 	@Test
 	public void testAbsoluteValue() {
-
 		// positive
 		for (int i = 0; i < 10; i++) {
 			double value = r.nextDouble() * 10;
@@ -77,7 +74,6 @@ public class AdvancedCalculatorTest {
 
 	@Test
 	public void testPercentageOf() {
-
 		// positive
 		for (int i = 0; i < 10; i++) {
 			double percentage = r.nextDouble() * 10;
@@ -101,7 +97,6 @@ public class AdvancedCalculatorTest {
 
 	@Test
 	public void testCubeRoot() {
-
 		// positive
 		for (int i = 0; i < 10; i++) {
 			double value = r.nextDouble() * 10;

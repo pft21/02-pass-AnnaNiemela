@@ -20,6 +20,5 @@ public class AdvancedCalculator extends BasicCalculator implements AdvancedOpera
 	
 	public double cubeRoot(double value) {
 		return Math.cbrt(value);	
-	}
-	
+	}	
 }

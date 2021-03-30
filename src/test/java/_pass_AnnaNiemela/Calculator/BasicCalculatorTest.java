@@ -11,7 +11,6 @@ public class BasicCalculatorTest {
 
 	@Test
 	public void testAddition() {
-
 		// positive
 		for (int i = 0; i < 10; i++) {
 			double firstValue = r.nextDouble() * 10;
@@ -35,7 +34,6 @@ public class BasicCalculatorTest {
 
 	@Test
 	public void testSubtraction() {
-
 		// positive
 		for (int i = 0; i < 10; i++) {
 			double firstValue = r.nextDouble() * 10;
@@ -60,7 +58,6 @@ public class BasicCalculatorTest {
 
 	@Test
 	public void testMultiplication() {
-
 		// positive
 		for (int i = 0; i < 10; i++) {
 			double firstValue = r.nextDouble() * 10;
@@ -84,7 +81,6 @@ public class BasicCalculatorTest {
 
 	@Test
 	public void testDivision() {
-
 		// positive
 		for (int i = 0; i < 10; i++) {
 			double firstValue = r.nextDouble() * 10;
@@ -104,6 +100,5 @@ public class BasicCalculatorTest {
 		double secondValue = 0;
 		double result = -0.123456789;
 		assertEquals(b.division(firstValue, secondValue), result, 0);
-
 	}
 }
