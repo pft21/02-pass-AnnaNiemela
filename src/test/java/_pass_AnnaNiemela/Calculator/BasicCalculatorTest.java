@@ -8,95 +8,105 @@ import org.junit.Test;
 public class BasicCalculatorTest {
 	Random r = new Random();
 	BasicCalculator b = new BasicCalculator();
-	
 
 	@Test
 	public void testAddition() {
-		
+
 		// positive
-		double firstValue = r.nextDouble() * 10;
-		double secondValue = r.nextDouble() * 10;
-		double result = firstValue + secondValue;
-		assertEquals(b.addition(firstValue, secondValue), result, 0);
-		
+		for (int i = 0; i < 10; i++) {
+			double firstValue = r.nextDouble() * 10;
+			double secondValue = r.nextDouble() * 10;
+			double result = firstValue + secondValue;
+			assertEquals(b.addition(firstValue, secondValue), result, 0);
+		}
+		// negative
+		for (int i = 0; i < 10; i++) {
+			double firstValue = r.nextDouble() * 10 - 20;
+			double secondValue = r.nextDouble() * 10 - 20;
+			double result = firstValue + secondValue;
+			assertEquals(b.addition(firstValue, secondValue), result, 0);
+		}
 		// zero
-		firstValue = 0;
-		secondValue = 0;
-		result = firstValue + secondValue;
-		assertEquals(b.addition(firstValue, secondValue), result, 0);
-		
-		//negative
-		firstValue = r.nextDouble() * 10 - 20;
-		secondValue = r.nextDouble() * 10 - 20;
-		result = firstValue + secondValue;
-		assertEquals(b.addition(firstValue, secondValue), result, 0);
+		for (int i = 0; i < 10; i++) {
+			double firstValue = 0;
+			double secondValue = 0;
+			double result = firstValue + secondValue;
+			assertEquals(b.addition(firstValue, secondValue), result, 0);
+		}
 	}
-	
+
 	@Test
 	public void testSubtraction() {
-		
+
 		// positive
-		double firstValue = r.nextDouble() * 10;
-		double secondValue = r.nextDouble() * 10;
+		for (int i = 0; i < 10; i++) {
+			double firstValue = r.nextDouble() * 10;
+			double secondValue = r.nextDouble() * 10;
+			double result = firstValue - secondValue;
+			assertEquals(b.subtraction(firstValue, secondValue), result, 0);
+		}
+		// negative
+		for (int i = 0; i < 10; i++) {
+			double firstValue = r.nextDouble() * 10 - 20;
+			double secondValue = r.nextDouble() * 10 - 20;
+			double result = firstValue - secondValue;
+			assertEquals(b.subtraction(firstValue, secondValue), result, 0);
+		}
+		// zero
+		double firstValue = 0;
+		double secondValue = 0;
 		double result = firstValue - secondValue;
 		assertEquals(b.subtraction(firstValue, secondValue), result, 0);
-		
-		// zero
-		firstValue = 0;
-		secondValue = 0;
-		result = firstValue - secondValue;
-		assertEquals(b.subtraction(firstValue, secondValue), result, 0);
-		
-		//negative
-		firstValue = r.nextDouble() * 10 - 20;
-		secondValue = r.nextDouble() * 10 - 20;
-		result = firstValue - secondValue;
-		assertEquals(b.subtraction(firstValue, secondValue), result, 0);
+
 	}
-	
+
 	@Test
 	public void testMultiplication() {
-		
+
 		// positive
-		double firstValue = r.nextDouble() * 10;
-		double secondValue = r.nextDouble() * 10;
+		for (int i = 0; i < 10; i++) {
+			double firstValue = r.nextDouble() * 10;
+			double secondValue = r.nextDouble() * 10;
+			double result = firstValue * secondValue;
+			assertEquals(b.multiplication(firstValue, secondValue), result, 0);
+		}
+		// negative
+		for (int i = 0; i < 10; i++) {
+			double firstValue = r.nextDouble() * 10 - 20;
+			double secondValue = r.nextDouble() * 10 - 20;
+			double result = firstValue * secondValue;
+			assertEquals(b.multiplication(firstValue, secondValue), result, 0);
+		}
+		// zero
+		double firstValue = 0;
+		double secondValue = 0;
 		double result = firstValue * secondValue;
 		assertEquals(b.multiplication(firstValue, secondValue), result, 0);
-		
-		// zero
-		firstValue = 0;
-		secondValue = 0;
-		result = firstValue * secondValue;
-		assertEquals(b.multiplication(firstValue, secondValue), result, 0);
-		
-		//negative
-		firstValue = r.nextDouble() * 10 - 20;
-		secondValue = r.nextDouble() * 10 - 20;
-		result = firstValue * secondValue;
-		assertEquals(b.multiplication(firstValue, secondValue), result, 0);
 	}
-	
+
 	@Test
 	public void testDivision() {
-		
+
 		// positive
-		double firstValue = r.nextDouble() * 10;
-		double secondValue = r.nextDouble() * 10;
-		double result = firstValue / secondValue;
-		assertEquals(b.division(firstValue, secondValue), result, 0);
-		
+		for (int i = 0; i < 10; i++) {
+			double firstValue = r.nextDouble() * 10;
+			double secondValue = r.nextDouble() * 10;
+			double result = firstValue / secondValue;
+			assertEquals(b.division(firstValue, secondValue), result, 0);
+		}
+		// negative
+		for (int i = 0; i < 10; i++) {
+			double firstValue = r.nextDouble() * 10 - 20;
+			double secondValue = r.nextDouble() * 10 - 20;
+			double result = firstValue / secondValue;
+			assertEquals(b.division(firstValue, secondValue), result, 0);
+		}
 		// zero
-		firstValue = 0;
-		secondValue = 0;
-		result = -0.123456789;
+		double firstValue = 0;
+		double secondValue = 0;
+		double result = -0.123456789;
 		assertEquals(b.division(firstValue, secondValue), result, 0);
-		
-		//negative
-		firstValue = r.nextDouble() * 10 - 20;
-		secondValue = r.nextDouble() * 10 - 20;
-		result = firstValue / secondValue;
-		assertEquals(b.division(firstValue, secondValue), result, 0);
-		
+
 	}
 
 }
