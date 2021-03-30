@@ -2,9 +2,9 @@ package _pass_AnnaNiemela.Calculator;
 
 public class BasicCalculator implements BasicOperations {
 	
-	public double firstValue = 0;
+	/* public double firstValue = 0;
 	public double secondValue = 0;
-	
+	*/
 
 	public double addition(double firstValue, double secondValue) {
 		double result = firstValue + secondValue;

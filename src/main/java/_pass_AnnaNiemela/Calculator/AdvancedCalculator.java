@@ -2,12 +2,12 @@ package _pass_AnnaNiemela.Calculator;
 
 public class AdvancedCalculator extends BasicCalculator implements AdvancedOperations {
 	
-	public double value = 0;
+	/* public double value = 0;
 	public double firstArgument = 0;
 	public double secondArgument = 0;
 	public double percentage = 0;
 	public double ofValue = 0;
-	
+	*/
 
 	public double squareRoot(double value) {
 		return Math.sqrt(value);
