@@ -53,7 +53,6 @@ public class BasicCalculatorTest {
 		double secondValue = 0;
 		double result = firstValue - secondValue;
 		assertEquals(b.subtraction(firstValue, secondValue), result, 0);
-
 	}
 
 	@Test

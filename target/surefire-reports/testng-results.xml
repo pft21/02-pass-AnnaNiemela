@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="108" started-at="2021-04-02T15:08:23Z" finished-at="2021-04-02T15:08:23Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="108" started-at="2021-04-02T15:08:23Z" finished-at="2021-04-02T15:08:23Z">
+      <class name="_pass_AnnaNiemela.Calculator.BasicCalculatorTest">
+        <test-method status="PASS" signature="testMultiplication()[pri:0, instance:testMultiplication(_pass_AnnaNiemela.Calculator.BasicCalculatorTest)]" name="testMultiplication" duration-ms="0" started-at="2021-04-02T17:08:23Z" finished-at="2021-04-02T17:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method status="PASS" signature="testDivision()[pri:0, instance:testDivision(_pass_AnnaNiemela.Calculator.BasicCalculatorTest)]" name="testDivision" duration-ms="0" started-at="2021-04-02T17:08:23Z" finished-at="2021-04-02T17:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+        <test-method status="PASS" signature="testAddition()[pri:0, instance:testAddition(_pass_AnnaNiemela.Calculator.BasicCalculatorTest)]" name="testAddition" duration-ms="0" started-at="2021-04-02T17:08:23Z" finished-at="2021-04-02T17:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method status="PASS" signature="testSubtraction()[pri:0, instance:testSubtraction(_pass_AnnaNiemela.Calculator.BasicCalculatorTest)]" name="testSubtraction" duration-ms="0" started-at="2021-04-02T17:08:23Z" finished-at="2021-04-02T17:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtraction -->
+      </class> <!-- _pass_AnnaNiemela.Calculator.BasicCalculatorTest -->
+      <class name="_pass_AnnaNiemela.Calculator.AdvancedCalculatorTest">
+        <test-method status="PASS" signature="testToThePowerOf()[pri:0, instance:testToThePowerOf(_pass_AnnaNiemela.Calculator.AdvancedCalculatorTest)]" name="testToThePowerOf" duration-ms="4" started-at="2021-04-02T17:08:23Z" finished-at="2021-04-02T17:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToThePowerOf -->
+        <test-method status="PASS" signature="testPercentageOf()[pri:0, instance:testPercentageOf(_pass_AnnaNiemela.Calculator.AdvancedCalculatorTest)]" name="testPercentageOf" duration-ms="0" started-at="2021-04-02T17:08:23Z" finished-at="2021-04-02T17:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPercentageOf -->
+        <test-method status="PASS" signature="testCubeRoot()[pri:0, instance:testCubeRoot(_pass_AnnaNiemela.Calculator.AdvancedCalculatorTest)]" name="testCubeRoot" duration-ms="0" started-at="2021-04-02T17:08:23Z" finished-at="2021-04-02T17:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCubeRoot -->
+        <test-method status="PASS" signature="testAbsoluteValue()[pri:0, instance:testAbsoluteValue(_pass_AnnaNiemela.Calculator.AdvancedCalculatorTest)]" name="testAbsoluteValue" duration-ms="0" started-at="2021-04-02T17:08:23Z" finished-at="2021-04-02T17:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAbsoluteValue -->
+        <test-method status="PASS" signature="testSquareRoot()[pri:0, instance:testSquareRoot(_pass_AnnaNiemela.Calculator.AdvancedCalculatorTest)]" name="testSquareRoot" duration-ms="0" started-at="2021-04-02T17:08:23Z" finished-at="2021-04-02T17:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareRoot -->
+      </class> <!-- _pass_AnnaNiemela.Calculator.AdvancedCalculatorTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
